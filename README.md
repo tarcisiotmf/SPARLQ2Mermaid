@@ -1,6 +1,6 @@
 # SPARLQ2Mermaid
 
-This is a proof-of-concept bootstrap converter between SPARQL and [Mermaid](https://mermaid.js.org). It only works properly with one RDF triple per line, if it is not the case it will ignore it or an unexpected result. Triple patterns in the "optional" body is also supported. The string containing the SPARQL query is the input of the converter python function ``sparql_to_mermaid(sparql_text)`` in [main.py]. 
+This is a proof-of-concept bootstrap converter between SPARQL and [Mermaid](https://mermaid.js.org). It only works properly with one RDF triple per line, if it is not the case it will ignore it or an unexpected result. Triple patterns in the "optional" body is also supported. The string containing the SPARQL query is the input of the converter python function ``sparql_to_mermaid(sparql_text)`` in [main.py](main.py). Please if you want to contribute for developing this converter  to fully support the SPARQL query language, please open a git issue.
 
 Example of SPARQL query and its correspoding Mermaid code and graph:
 
